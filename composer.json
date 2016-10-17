@@ -1,0 +1,25 @@
+{
+    "name": "jianbo/blog",
+    "description": "Jianbo's blog",
+    "type": "project",
+    "require": {
+        "johnpbloch/wordpress": "^4.6",
+        "php": "^5.5",
+        "composer/installers": "~1.0.12"
+    },
+    "extra": {
+      "installer-paths": {
+        "wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+        "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "wp-content/themes/{$name}/": ["type:wordpress-theme"]
+      },
+      "wordpress-install-dir": "wp"
+    },
+    "authors": [
+        {
+            "name": "Jianbo",
+            "email": "lemurzjb@gmail.com"
+        }
+    ]
+}
+
