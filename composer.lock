@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "30ca032abaa8ea6fa6f1357dcac08215",
-    "content-hash": "b1aa26abc3cef5244493673c143079ca",
+    "hash": "19d7198daf8d1585a22de598397a780c",
+    "content-hash": "1a0ed6061b6063240928c788e3e68b9b",
     "packages": [
         {
             "name": "composer/installers",
@@ -191,6 +191,26 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "wpackagist-theme/matata",
+            "version": "1.1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/matata/",
+                "reference": "1.1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/matata.1.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/matata/"
         }
     ],
     "packages-dev": [],
