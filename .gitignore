@@ -1,0 +1,4 @@
+wp
+vendor
+wp-content/themes/*
+!wp-content/themes/.gitkeep
